@@ -1,0 +1,142 @@
+body {
+  background-color: rgb(3, 3, 3);
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.cabecalho {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 80px;
+  width: 100%;
+  display: flex;
+  padding: 10px 80px;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid grey;
+  z-index: 1;
+  position: fixed;
+}
+.cabecalho .logos-header {
+  display: flex;
+  gap: 30px;
+  scale: 60%;
+}
+
+.cabecalho .menu ul {
+  display: flex;
+  /* display: inline-flex; */
+}
+
+.cabecalho .menu li {
+  display: inline-flex;
+  padding: 15px;
+}
+.cabecalho .menu li:hover {
+  background-color: darkgrey;
+  transition: 0.5s ease-in-out;
+  color: black;
+  font-size: 25px;
+}
+
+.avatar:hover {
+  transition: 0.5s ease-in-out;
+  transform: scale(1.1);
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home .img-fundo {
+  width: 100%;
+  object-fit: cover;
+}
+.grl-informacao {
+  /* height: 400px; */
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+}
+
+.informacao {
+  display: inline;
+  margin-bottom: 15px;
+  gap: 30px;
+}
+.informacao h1 {
+  margin-bottom: 10px;
+}
+.banner-info {
+  align-items: center;
+  max-width: 720px;
+}
+.icones-home {
+  justify-content: center;
+  scale: 200%;
+  display: flex;
+  margin-top: 30px;
+  gap: 15px;
+}
+.icones-home li:hover{
+  color: gray;
+}
+.sub-titulo-certi, .sub-titulo-projetos {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 30px;
+}
+.certificados, .projetos {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  border: 1px solid #fff;
+  background-color: rgb(51, 50, 50);
+  align-content: center;
+  justify-items: center;
+  flex-direction: column;
+  margin: 15px;
+  padding: 15px;
+}
+
+.content {
+  max-width: 400px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.content .content-h2 {
+  margin-bottom: 10px;
+  align-items: center;
+  text-align: center;
+}
+.content-p {
+  text-align: justify;
+}
+.icones-linguagens {
+  justify-items: center;
+  justify-content: center;
+}
+.btn-vejamais{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+.footer{
+  align-items: center;
+  scale: 60%;
+  justify-content: space-between;
+  margin: 15px;
+  padding: 30px;
+  display: flex;
+}
+
+.certificados, .projetos{
+  scale: 80%;
+  }
